@@ -117,9 +117,9 @@ void removeElement(vector <Patient>& arr)
 
 void addElement(vector <Patient>& arr)
 {
-	Patient newCountry;
-	newCountry.fill();
-	arr.push_back(newCountry);
+	Patient newPatient;
+	newPatient.fill();
+	arr.push_back(newPatient);
 }
 
 int main()
