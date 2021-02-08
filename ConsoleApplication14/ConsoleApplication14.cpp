@@ -20,11 +20,11 @@ int getCorrectNumber()
 void getEndOfWord(const unsigned int &num)
 {
 	cout << endl;
-	if (num == 1 || (num > 20 && num % 10 == 1))
+	if (num == 1 || ( num % 10 == 1))
 	{
 		cout << "Был удален " << num << " элемент" << endl;
 	}
-	else if ((num > 1 && num < 5) || ((num > 20) && (num % 10) > 1 && (num % 10) < 5))
+	else if ((num > 1 && num < 5) || ((num % 10) > 1 && (num % 10) < 5))
 	{
 		cout << "Было удалено " << num << " элемента" << endl;
 	}
